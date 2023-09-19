@@ -1,0 +1,199 @@
+@import "variables.scss";
+
+// 表格 滚动条
+.el-table__fixed {
+    box-shadow: 5px 0 10px -5px rgb(0 0 0 / 12%);
+}
+
+.el-table__fixed-right {
+    box-shadow: -5px 0 10px -5px rgb(0 0 0 / 12%)
+}
+
+.plTableBox {
+
+    &.no_border_table {
+        .el-table {
+            border: 0;
+
+            &.el-table--border {
+
+                &::after {
+                    width: 0;
+                }
+
+                ::v-deep {
+                    th {
+                        border-right-color: transparent;
+                    }
+
+                    td {
+                        border-right-color: transparent;
+                    }
+
+                    .el-table__header {
+                        &:hover {
+                            th {
+                                border-right-color: #eee;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    ::v-deep {
+
+        .cell.el-tooltip {
+            width: 100% !important;
+        }
+
+        // .table_cell_names{
+        // }
+
+        .cell {
+            .table_cell_names_span {
+                color: $mcolor;
+                cursor: pointer;
+                position: relative;
+                display: inline-block;
+                max-width: 100%;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+
+                &:hover {
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        border-bottom: 1px solid $mcolor;
+                    }
+                }
+            }
+        }
+
+        .el-table__column-resize-proxy {
+            border-left-color: $mcolor;
+        }
+
+        .el-table.el-table--scrollable-y .el-table__header-wrapper,
+        .el-table.el-table--scrollable-y .el-table__footer-wrapper {
+            border-right: $scrollBarWidth solid #f7f7f7;
+        }
+
+        .el-table__header th {
+            background-color: #f5f7fa;
+
+            .cell {
+                text-align: left;
+            }
+        }
+
+        .el-table__footer-wrapper tbody td,
+        .el-table__fixed-footer-wrapper tbody td {
+            background-color: #f5f7fa;
+            color: #606266;
+        }
+
+        .el-table__header-wrapper:hover {
+            th {
+                border-right: 1px solid #eee;
+
+                &:last-child {
+                    border-right: 0;
+                }
+            }
+        }
+
+        .el-table--border td,
+        .el-table--border th {
+            border-right: 1px solid #ebeef5;
+        }
+
+        .el-table--striped .el-table__body tr.el-table__row--striped td {
+            background: #fafafa;
+        }
+
+        .el-table--enable-row-transition .el-table__body td {
+            transition: background-color .25s ease;
+        }
+
+        .el-table .is-center .cell {
+            text-align: center;
+        }
+
+        .el-table .is-right .cell {
+            text-align: right;
+        }
+
+        .el-table td,
+        .el-table th {
+            border-bottom: 1px solid #ebeef5;
+        }
+
+        .el-table__row.hover-row td {
+            background-color: #F5F7FA;
+        }
+
+
+        .el-table__body-wrapper {
+            position: initial;
+
+            &::-webkit-scrollbar {
+                width: $scrollBarWidth;
+                height: $scrollBarWidth;
+                background-color: #F6f7f6;
+                // F6f7f6
+            }
+
+            &::-webkit-scrollbar-corner {
+                background-color: #f7f7f7;
+            }
+
+            //
+            /*定义滑块 内阴影+圆角*/
+            &::-webkit-scrollbar-thumb {
+                // height:12px;
+                border: 3px solid transparent !important;
+                background-clip: content-box !important;
+                border-radius: $scrollBarWidth !important;
+                background-color: #666 !important;
+                // 16
+                // 7b7b7b
+            }
+        }
+
+        .el-table--fixed__virtual-wrapper {
+            width: 100% !important;
+        }
+
+        .el-table__footer-wrapper td,
+        .el-table__fixed-footer-wrapper td {
+            border-top: 1px solid #ebeef5;
+        }
+
+        .el-table__fixed .el-table__fixed-body-wrapper,
+        .el-table__fixed-right .el-table__fixed-body-wrapper {
+            bottom: 0;
+        }
+
+        .el-table__fixed .el-table__fixed-footer-wrapper,
+        .el-table__footer-wrapper+.el-table__fixed-right .el-table__fixed-footer-wrapper,
+        .el-table__fixed-footer-wrapper+.el-table__fixed-right .el-table__fixed-footer-wrapper {
+            display: none;
+        }
+
+        .el-table--scrollable-x .el-table__fixed-right+.el-table__fixed-right {
+            bottom: 0 !important;
+        }
+
+        .el-table__fixed-right::before,
+        .el-table__fixed::before {
+            height: 0;
+        }
+
+    }
+}

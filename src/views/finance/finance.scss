@@ -1,0 +1,57 @@
+.tableFlex {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+
+  .page_box_content {
+    flex: 1;
+    max-height: 100%;
+    overflow: hidden;
+  }
+}
+
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.my_form {
+  //.el-form--inline .el-form-item__content {
+  //  vertical-align: middle!important;
+  //}
+  margin-top: 16px;
+
+  .my-el-form-item {
+    //margin-bottom: 0;
+  }
+}
+
+.popper-class {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+  border: none !important;
+}
+
+.m___steps {
+  --bg: #999999;
+
+  .el-step__icon {
+    width: 16px;
+    height: 16px;
+    background: var(--bg);
+    border: 3px solid #FFFFFF;
+  }
+
+  .is-finish {
+    .el-step__icon {
+      --bg: #1890FF;
+      color: #1890FF;
+    }
+
+  }
+}
+
+._full-table {
+  position: relative;
+  height: 100%;
+}

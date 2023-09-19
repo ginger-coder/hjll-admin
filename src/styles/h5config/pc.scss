@@ -1,0 +1,121 @@
+.h5_page_body {
+
+    // 热搜
+    .top_search_component_info{
+        overflow: hidden;
+    }
+
+    // 图文广告
+    .banner_component_info {
+
+        .component_banner_box {
+            min-height: 200px;
+
+            &:before {
+                content: '图片广告';
+                font-size: 14px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(236, 245, 255);
+            }
+
+            &.has_items {
+                min-height: auto;
+                background-color: transparent;
+
+                &:before {
+                    background-color: transparent;
+                    content: '';
+                }
+            }
+        }
+
+        .banner_carousel {
+            .el-carousel__button {
+                width: 12px;
+                height: 12px;
+                border-radius: 12px;
+            }
+        }
+    }
+
+    // 图文导航
+    .nav_groups_component_info {
+        .nav_groups_demo {
+            height: 75px;
+
+            &:before {
+                content: '图文导航';
+                font-size: 14px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(236, 245, 255);
+            }
+        }
+
+        .items_box {
+            overflow-x: hidden;
+
+            .nav_place {
+                width: 70px;
+                height: 70px;
+                border: 1px solid #333;
+                box-sizing: border-box;
+            }
+        }
+    }
+
+    // 魔方
+    .rubik_cube_component_info {
+        .rubik_cube_item_pic {
+            &.no_pic {
+                &:before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    background-color: rgb(236, 245, 255);
+                }
+            }
+
+            .el-icon-picture {
+                font-size: 34px;
+                z-index: 1;
+            }
+        }
+    }
+
+    // 商品列表
+    .goods-list_component_info {
+
+        .type1_goods_item_pic,
+        .type2_goods_item_pic,
+        .type3_goods_item_pic {
+            background-color: #d9ebff;
+
+            .el-icon-picture {
+                font-size: 34px;
+            }
+        }
+
+        .goods_item_cart .el-icon-shopping-cart-2 {
+            font-size: 16px;
+            color: #fff;
+        }
+    }
+
+}

@@ -1,0 +1,287 @@
+.h5_page_body {
+    min-height: 100%;
+    font-size: 0;
+
+    .disp_flex {
+        display: -webkit-flex;
+        display: flex;
+    }
+
+    .flex_wrap {
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .flex_column {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .ju_bet {
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+    }
+
+    .ju_cen {
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+
+    .ju_ard {
+        -webkit-justify-content: space-around;
+        justify-content: space-around;
+    }
+
+    .ali_cen {
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .ali_end {
+        -webkit-align-items: flex-end;
+        align-items: flex-end;
+    }
+
+    .flex {
+        -webkit-flex: 1;
+        flex: 1;
+    }
+
+    .tl {
+        text-align: left;
+    }
+
+    .tc {
+        text-align: center;
+    }
+
+    .tr {
+        text-align: right;
+    }
+
+    // 搜索
+    .search_component_info {
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        width: 100%;
+        padding: 10px;
+
+        .component_input_box {
+            display: flex;
+            align-items: center;
+            height: 36px;
+            padding: 0 14px;
+            color: #B1B1B1;
+            font-size: 14px;
+
+            .component_search {
+                margin-right: 5px;
+                width: 16px;
+                height: 16px;
+            }
+
+            .input,
+            input {
+                height: 36px;
+                line-height: 36px;
+                color: inherit;
+            }
+        }
+
+        .border_round {
+            border-radius: 6px;
+        }
+
+        .border_circle {
+            border-radius: 18px;
+        }
+
+        .component_icon {
+            width: 36px;
+            height: 36px;
+            object-fit: contain;
+        }
+
+        .component_icon+.component_input_box {
+            margin-left: 8px;
+        }
+
+        .component_input_box+.component_icon {
+            margin-left: 8px;
+        }
+    }
+
+    //热搜
+    .top_search_component_info {
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        height: 50px;
+        overflow-x: auto;
+
+        .default_tag {
+            width: 50px;
+            height: 24px;
+            border: 1px solid #333;
+
+            &+.default_tag {
+                margin-left: 10px;
+            }
+        }
+
+        .tag_item {
+            display: flex;
+            align-items: center;
+            padding: 4px;
+            border-radius: 10px;
+            border: 1px solid #333;
+
+            &+.tag_item {
+                margin-left: 10px;
+            }
+        }
+
+    }
+
+    // 图片广告
+    .banner_component_info {
+        position: relative;
+
+        img,
+        image {
+            width: 100%;
+        }
+    }
+
+    // 图文导航
+    .nav_groups_component_info {
+
+        .items_box {
+            display: flex;
+            align-items: center;
+            overflow-x: auto;
+
+            img,
+            image {
+                width: 70px;
+            }
+
+            .nav_title {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                line-height: 30px;
+            }
+        }
+    }
+
+    // 文本
+    .text_component_info {
+        white-space: pre-wrap;
+    }
+
+    // 魔方
+    .rubik_cube_component_info {
+        .rubik_cube_item_pic {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            height: 100%;
+
+            img,
+            image {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+
+    // 商品列表
+    .goods_item {
+        border-radius: 8px;
+        overflow: hidden;
+        background-color: #fff;
+
+        .goods_item_cont {
+            padding: 10px;
+            font-size: 12px;
+
+            .goods_item_title {
+                color: #333;
+                font-size: 14px;
+                margin-bottom: 10px;
+                text-align: left;
+            }
+
+            .goods_item_price {
+                display: flex;
+                align-items: flex-end;
+                color: red;
+
+                .price {
+                    font-size: 20px;
+                    line-height: 1;
+                }
+            }
+
+            .goods_item_market_price {
+                font-size: 10px;
+                text-decoration: line-through;
+                margin-left: 10px;
+                color: #333;
+            }
+
+            .goods_item_sales_total {
+                font-size: 12px;
+                text-align: right;
+            }
+
+            .goods_item_cart {
+                border-radius: 24px;
+                width: 24px;
+                height: 24px;
+                background-color: #eee;
+
+                svg,
+                img,
+                image {
+                    fill: #333;
+                    width: 14px;
+                    height: 14px;
+                }
+            }
+        }
+
+        .type1_goods_item {
+            display: inline-block;
+        }
+
+        .type1_goods_item_pic {
+            width: 100%;
+            height: 172px;
+            object-fit: contain;
+        }
+
+        .type2_goods_item_pic {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+        }
+
+        .type3_goods_item_pic {
+            width: 100%;
+            height: 120px;
+            object-fit: contain;
+        }
+    }
+
+
+    .type1_goods_item {
+        display: inline-block;
+    }
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 50" style="enable-background:new 0 0 48 50;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:url(#路径_3_);}
+	.st2{fill:#FAFBFD;}
+	.st3{fill:url(#路径_4_);}
+	.st4{opacity:0.6472;enable-background:new    ;}
+	.st5{fill:url(#SVGID_1_);}
+	.st6{fill:none;stroke:#F4F5FD;stroke-width:0.96;}
+	.st7{fill:#F7F8F8;}
+</style>
+<g id="运维管理">
+	<g id="运维管理_x2F_运维统计" transform="translate(-1102.000000, -187.000000)">
+		<g id="编组-8" transform="translate(260.000000, 128.000000)">
+			<g id="编组-2备份-4" transform="translate(704.000000, 24.000000)">
+				<g id="编组-23" transform="translate(138.000000, 35.000000)">
+					<rect id="矩形" y="1" class="st0" width="48" height="48"/>
+					<g id="daipaidan备份" transform="translate(2.000000, 0.000000)">
+						
+							<linearGradient id="路径_3_" gradientUnits="userSpaceOnUse" x1="-1822.0035" y1="26.6343" x2="-1822.0035" y2="27.6334" gradientTransform="matrix(36.3143 0 0 38.6341 66182.9844 -1023.2903)">
+							<stop  offset="0" style="stop-color:#6D87F1"/>
+							<stop  offset="1" style="stop-color:#3B4FDF"/>
+						</linearGradient>
+						<path id="路径" class="st1" d="M30.5,44.3H5.9c-3,0-5.9-3-5.9-6.2V11.9c0-3.2,2.8-6.2,5.9-6.2h24.6c3,0,5.9,3,5.9,6.2v26.2
+							C36.3,41.3,33.5,44.3,30.5,44.3z"/>
+						<path id="形状" class="st2" d="M13.4,36.1H8.9c-1,0-1.9-0.8-1.9-1.8s0.8-1.8,1.9-1.8h4.6c1,0,1.9,0.8,1.9,1.8
+							C15.3,35.3,14.5,36.1,13.4,36.1z M16.7,27.9H9.1c-1.1,0-2-0.8-2-1.8s0.9-1.8,2-1.8h7.7c1.1,0,2,0.8,2,1.8
+							C18.7,27.1,17.8,27.9,16.7,27.9z M27.3,19.7H9c-1.1,0-2-0.8-2-1.8s0.9-1.8,2-1.8h18.3c1.1,0,2,0.8,2,1.8
+							C29.3,18.9,28.4,19.7,27.3,19.7z"/>
+						
+							<linearGradient id="路径_4_" gradientUnits="userSpaceOnUse" x1="-1784.8153" y1="97.6604" x2="-1784.8153" y2="98.6604" gradientTransform="matrix(21.0857 0 0 10.5366 37652.2266 -1028.0082)">
+							<stop  offset="0" style="stop-color:#6D87F1"/>
+							<stop  offset="1" style="stop-color:#3B4FDF"/>
+						</linearGradient>
+						<path id="路径_1_" class="st3" d="M24.1,11.5H12.2c-2.5,0-4.6-2-4.6-4.4V5.4C7.6,3,9.7,1,12.2,1h11.9c2.5,0,4.6,2,4.6,4.4V7
+							C28.7,9.5,26.6,11.5,24.1,11.5z"/>
+						<g id="路径_2_" class="st4">
+							
+								<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-1780.0807" y1="51.0417" x2="-1780.0807" y2="52.0417" gradientTransform="matrix(20.0167 0 0 20.16 35664.8438 -1000.64)">
+								<stop  offset="0" style="stop-color:#89A0FF"/>
+								<stop  offset="1" style="stop-color:#5B6FFF"/>
+							</linearGradient>
+							<path class="st5" d="M33.5,28.4c2.8,0,5.3,1.1,7.1,3c1.8,1.8,2.9,4.3,2.9,7.1c0,3.6-1.9,6.9-5,8.7c-1.5,0.9-3.3,1.3-5,1.3
+								s-3.5-0.4-5-1.3c-3.1-1.8-5-5.1-5-8.7c0-2.8,1.1-5.3,2.9-7.1C28.2,29.5,30.7,28.4,33.5,28.4z"/>
+							<path class="st6" d="M33.5,28.4c2.8,0,5.3,1.1,7.1,3c1.8,1.8,2.9,4.3,2.9,7.1c0,3.6-1.9,6.9-5,8.7c-1.5,0.9-3.3,1.3-5,1.3
+								s-3.5-0.4-5-1.3c-3.1-1.8-5-5.1-5-8.7c0-2.8,1.1-5.3,2.9-7.1C28.2,29.5,30.7,28.4,33.5,28.4z"/>
+						</g>
+						<g id="形状_1_">
+							<g>
+								<path id="path-5_2_" d="M32.8,31.7h1.5c0.7,0,1.2,0.5,1.2,1.1l-0.3,4.8c0,0.6-0.5,1-1.2,1h-0.9c-0.6,0-1.1-0.4-1.2-1
+									l-0.3-4.8C31.6,32.2,32.1,31.7,32.8,31.7z M33.5,43.2c-1.1,0-1.9-0.8-1.9-1.8s0.9-1.8,1.9-1.8c1.1,0,1.9,0.8,1.9,1.8
+									S34.6,43.2,33.5,43.2z"/>
+							</g>
+							<g>
+								<path id="path-5_1_" class="st7" d="M32.8,31.7h1.5c0.7,0,1.2,0.5,1.2,1.1l-0.3,4.8c0,0.6-0.5,1-1.2,1h-0.9
+									c-0.6,0-1.1-0.4-1.2-1l-0.3-4.8C31.6,32.2,32.1,31.7,32.8,31.7z M33.5,43.2c-1.1,0-1.9-0.8-1.9-1.8s0.9-1.8,1.9-1.8
+									c1.1,0,1.9,0.8,1.9,1.8S34.6,43.2,33.5,43.2z"/>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

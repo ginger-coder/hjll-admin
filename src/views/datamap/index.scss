@@ -1,0 +1,292 @@
+.main-flex {
+  display: flex;
+  //flex-direction: column;
+  height: 100%;
+  position: relative;
+
+  .chartAndMap {
+    position: relative;
+
+    .map {
+      padding: 15px;
+      background-color: #fff;
+      height: 100%;
+      border-radius: 10px;
+
+      ::v-deep .echarts-wrap {
+        padding: 0;
+      }
+    }
+
+    ::v-deep .echarts-wrap .echarts {
+      background-color: #F2F5FA;
+    }
+
+    .search-wrap {
+      position: absolute;
+      left: 25px;
+      top: 25px;
+      z-index: 9;
+      box-shadow: 1px 2px 1px 0 rgba(0, 0, 0, 0.1);
+      border-radius: 2px;
+      font-size: 18px;
+      //background-color: #fff;
+
+      .search-component {
+        height: 100%;
+        border-radius: 0;
+
+        ::v-deep .el-input__inner {
+          border: none;
+          height: 22px;
+          border-right: 1px solid rgba(151, 151, 151, 0.3);
+          border-radius: 0;
+        }
+      }
+
+      .refresh, .search, .back {
+        border: none;
+
+        border-radius: 2px;
+        margin-left: 0;
+        font-size: 22px;
+        font-weight: bold;
+        padding: 10px 15px;
+      }
+
+      .back {
+        margin-right: 10px;
+
+        img {
+          width: 22px;
+          height: 18px;
+        }
+      }
+
+      .refresh {
+        color: #5674E5;
+      }
+
+      .search {
+        color: #fff;
+        background: linear-gradient(90deg, #5A77E2 0%, #708CF5 100%);
+      }
+    }
+  }
+
+  .mychild {
+    flex: 1;
+    height: 100%;
+    margin-right: 24px;
+  }
+
+  .right-box {
+    //flex: 0 0 355px;
+    .mt-space {
+      margin-top: var(--space, 24px);
+    }
+
+    .dotted-line {
+      border-bottom: 2px dotted #F0F0F0;
+    }
+
+    .el-card {
+      border-radius: 10px;
+    }
+
+    .p20 {
+      padding: 10px 0;
+    }
+  }
+
+  .title-wrap {
+
+    //position: absolute;
+    //right: 25px;
+    //top: 25px;
+    background-color: #fff;
+    z-index: 8;
+    //padding: 10px 20px 10px 10px;
+    cursor: pointer;
+    font-size: 14px;
+
+    .mb-16 {
+      margin-bottom: 16px;
+    }
+
+    .mb-16:last-of-type {
+      margin-bottom: 0;
+    }
+
+    .title-item {
+      margin-right: 10px;
+    }
+
+    .legend-item_name {
+      margin-right: 5px;
+      display: inline-block;
+      width: 60px;
+      //text-align: right;
+    }
+
+    .legend-title {
+      display: inline-block;
+      width: 60px;
+      font-weight: bold;
+      //text-align: right;
+      color: rgba(0, 0, 0, 0.85);
+      line-height: 20px;
+      //margin-bottom: 5px;
+    }
+
+    img {
+      width: 26px;
+      transform: scale(.9);
+    }
+
+    p {
+      display: flex;
+      margin: 0;
+      padding: 5px 0;
+      line-height: 20px;
+      //flex-direction: column;
+      align-items: center;
+
+
+      span {
+        display: inline-block;
+        width: 50px;
+        margin-right: 15px;
+        text-align: right;
+      }
+    }
+
+    //box-shadow: 1px 2px 2px #000D17 ;
+  }
+}
+
+// .pie {
+//   width: 70px;
+//   height: 70px;
+// }
+
+.ss {
+  font-size: 16px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 22px;
+  margin: 0 0 16px 0;
+}
+
+.tableFlex {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+._el-drawer_title {
+  width: 80px;
+  height: 28px;
+  font-size: 20px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: bold;
+  color: #000000;
+  line-height: 28px;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.main {
+  //background: #f2f2f2;
+  height: 100%;
+
+
+  .count {
+    height: 140px;
+    margin-bottom: 24px;
+    text-indent: 16px;
+
+    .h2 {
+      width: 51px;
+      height: 38px;
+      font-size: 30px;
+      font-family: HelveticaNeue;
+      color: rgba(0, 0, 0, 0.85);
+      line-height: 38px;
+      margin: 0;
+    }
+
+    .el-card {
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+      ::v-deep .el-card__body {
+        width: 100%;
+      }
+    }
+  }
+
+  //   .bottomtype {
+  //       border-bottom: 10px solid cyan;
+  //   }
+}
+
+.citystyle {
+  font-weight: 400;
+}
+
+.area {
+  color: #929292;
+  font-weight: 400;
+  margin-right: 20px
+}
+
+.title {
+  background: #fff;
+}
+
+.titletop {
+  margin-bottom: 0;
+  border-bottom: 1px solid #ebebeb;
+  padding: 20px
+}
+
+.percentage {
+  margin-top: 20px;
+
+}
+
+.bottomtype {
+  margin-bottom: 12px;
+}
+
+.schedule {
+  //margin: 0 18px;
+}
+
+.schedule ::v-deep .el-progress__text {
+  white-space: pre; //使百分号与所添加文字换行
+  left: 0;
+  font-size: 16px !important;
+}
+
+.el-drawer_box {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  padding: 15px;
+  //height: 100%;
+
+  .el-drawer_mTable {
+    flex: 1;
+    height: 100%;
+    overflow: auto;
+  }
+}

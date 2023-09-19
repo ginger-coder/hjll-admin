@@ -1,0 +1,64 @@
+
+$fontColor:#303133;
+
+$mcolor:#2879FF;
+$mcolorBgOpacity:rgba(40,121,255,.1);
+$nprogressBg:#2879FF; //nprogress背景色
+// sidebar
+$menuText:#F56C6C;
+$menuActiveText:#2879FF;
+$subMenuActiveText:#re; //https://github.com/ElemeFE/element/issues/12951
+
+$menuBg:'#ffffff';
+$menuHover:rgba(40,121,255,.1);
+
+$menuActiveBg:rgba(40,121,255,.1);
+
+$subMenuBg:rgba(40,121,255,.1);
+$subMenuHover:rgba(40,121,255,.1);
+
+$sideBarWidth: 240px;
+$sideBg:#fff;
+$topBarHeight: 60px;
+$tagsViewHeight: 40px;
+$contentHeight: calc(100vh - 60px);
+
+// $loginBackgrWidth:567px;
+$loginBackgrWidth:0px;
+
+$scrollBarWidth:12px;
+
+$base-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), border 0s,
+  background 0s, color 0s, font-size 0s;
+
+// 代维侧边栏主题
+$dwMenuColor:#0C0E1D;
+$dwMenuNextColor:#000D17;
+$dwMenuHoverColor:#10203A;
+$dwMenuActiveColor:#4365AC;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  mcolor:$mcolor;
+  dwMenuColor:$dwMenuColor;
+  dwMenuHoverColor:$dwMenuHoverColor;
+  dwMenuActiveColor:$dwMenuActiveColor;
+  dwMenuNextColor:$dwMenuNextColor;
+  mcolorBgOpacity:$mcolorBgOpacity;
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuActiveBg: $menuActiveBg;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  sideBg: $sideBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+  tagsViewHeight: $tagsViewHeight;
+  topBarHeight: $topBarHeight;
+  contentHeight: $contentHeight;
+  loginBackgrWidth: $loginBackgrWidth;
+  scrollBarWidth: $scrollBarWidth;
+}
